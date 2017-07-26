@@ -1,0 +1,5 @@
+F:\JEMS\EMS\HelloWorldClient\bin\Debug\HelloWorldClient.exe.config
+F:\JEMS\EMS\HelloWorldClient\bin\Debug\HelloWorldClient.exe
+F:\JEMS\EMS\HelloWorldClient\bin\Debug\HelloWorldClient.pdb
+F:\JEMS\EMS\HelloWorldClient\obj\Debug\HelloWorldClient.exe
+F:\JEMS\EMS\HelloWorldClient\obj\Debug\HelloWorldClient.pdb

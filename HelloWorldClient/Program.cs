@@ -9,6 +9,8 @@ namespace HelloWorldClient
     {
         static void Main(string[] args)
         {
+            var client = new HelloWorldServiceClient();
+            Console.WriteLine(client.GetMessage("Abel Mengistu"));
         }
     }
 }
