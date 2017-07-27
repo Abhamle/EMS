@@ -30,6 +30,53 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "HostExpressServer", "..\Hos
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorldClient", "..\HelloWorldClient\HelloWorldClient.csproj", "{0E90F51F-EECF-4D39-BB7B-C4510183B030}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HostCmdLineApp", "..\HostCmdLineApp\HostCmdLineApp.csproj", "{44DF1AE7-6DAC-4518-A1B8-0D09F4FC9038}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HostIIS", "HostIIS", "{998E5D34-871C-4807-83C1-5A4CDE35AF1F}"
+	ProjectSection(SolutionItems) = preProject
+		..\HostIIS\Web.config = ..\HostIIS\Web.config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "bin", "bin", "{9F2EBAEA-BBD1-4EE6-B11D-30A611D87BF4}"
+	ProjectSection(SolutionItems) = preProject
+		..\HostIIS\bin\HelloWorldService.dll = ..\HostIIS\bin\HelloWorldService.dll
+		..\HostIIS\bin\HelloWorldService.pdb = ..\HostIIS\bin\HelloWorldService.pdb
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HostIISTCP", "HostIISTCP", "{FF9B08CD-D703-4696-AD59-387C1A6DE3D8}"
+	ProjectSection(SolutionItems) = preProject
+		..\HostIISTCP\Web.config = ..\HostIISTCP\Web.config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "bin", "bin", "{91E07A65-0824-49FB-ACBE-1589D8A68562}"
+	ProjectSection(SolutionItems) = preProject
+		..\HostIISTCP\bin\HelloWorldService.dll = ..\HostIISTCP\bin\HelloWorldService.dll
+		..\HostIISTCP\bin\HelloWorldService.pdb = ..\HostIISTCP\bin\HelloWorldService.pdb
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "HostBaseServer", "..\HostBaseServer\", "{B0426E94-19F6-4E13-8847-2A00B0675521}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{4b66ed9b-85ff-4a4e-82a0-ca994d73c819}|HelloWorldService.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_54814"
+		Debug.AspNetCompiler.PhysicalPath = "..\HostBaseServer\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54814\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_54814"
+		Release.AspNetCompiler.PhysicalPath = "..\HostBaseServer\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54814\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "54814"
+		SlnRelativePath = "..\HostBaseServer\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,8 +95,20 @@ Global
 		{0E90F51F-EECF-4D39-BB7B-C4510183B030}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E90F51F-EECF-4D39-BB7B-C4510183B030}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E90F51F-EECF-4D39-BB7B-C4510183B030}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44DF1AE7-6DAC-4518-A1B8-0D09F4FC9038}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44DF1AE7-6DAC-4518-A1B8-0D09F4FC9038}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44DF1AE7-6DAC-4518-A1B8-0D09F4FC9038}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44DF1AE7-6DAC-4518-A1B8-0D09F4FC9038}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0426E94-19F6-4E13-8847-2A00B0675521}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0426E94-19F6-4E13-8847-2A00B0675521}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0426E94-19F6-4E13-8847-2A00B0675521}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0426E94-19F6-4E13-8847-2A00B0675521}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9F2EBAEA-BBD1-4EE6-B11D-30A611D87BF4} = {998E5D34-871C-4807-83C1-5A4CDE35AF1F}
+		{91E07A65-0824-49FB-ACBE-1589D8A68562} = {FF9B08CD-D703-4696-AD59-387C1A6DE3D8}
 	EndGlobalSection
 EndGlobal

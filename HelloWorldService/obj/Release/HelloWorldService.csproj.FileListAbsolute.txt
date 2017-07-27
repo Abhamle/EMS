@@ -1,0 +1,4 @@
+F:\JEMS\EMS\HelloWorldService\bin\Release\HelloWorldService.dll
+F:\JEMS\EMS\HelloWorldService\bin\Release\HelloWorldService.pdb
+F:\JEMS\EMS\HelloWorldService\obj\Release\HelloWorldService.dll
+F:\JEMS\EMS\HelloWorldService\obj\Release\HelloWorldService.pdb

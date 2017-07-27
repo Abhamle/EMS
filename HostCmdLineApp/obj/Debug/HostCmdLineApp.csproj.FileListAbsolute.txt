@@ -1,0 +1,8 @@
+F:\JEMS\EMS\HostCmdLineApp\bin\Debug\HostCmdLineApp.exe.config
+F:\JEMS\EMS\HostCmdLineApp\bin\Debug\HostCmdLineApp.exe
+F:\JEMS\EMS\HostCmdLineApp\bin\Debug\HostCmdLineApp.pdb
+F:\JEMS\EMS\HostCmdLineApp\bin\Debug\HelloWorldService.dll
+F:\JEMS\EMS\HostCmdLineApp\bin\Debug\HelloWorldService.pdb
+F:\JEMS\EMS\HostCmdLineApp\obj\Debug\HostCmdLineApp.csprojResolveAssemblyReference.cache
+F:\JEMS\EMS\HostCmdLineApp\obj\Debug\HostCmdLineApp.exe
+F:\JEMS\EMS\HostCmdLineApp\obj\Debug\HostCmdLineApp.pdb

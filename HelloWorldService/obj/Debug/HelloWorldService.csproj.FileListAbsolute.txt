@@ -1,5 +1,4 @@
 F:\JEMS\EMS\HelloWorldService\bin\Debug\HelloWorldService.dll
 F:\JEMS\EMS\HelloWorldService\bin\Debug\HelloWorldService.pdb
-F:\JEMS\EMS\HelloWorldService\obj\Debug\HelloWorldService.csprojResolveAssemblyReference.cache
 F:\JEMS\EMS\HelloWorldService\obj\Debug\HelloWorldService.dll
 F:\JEMS\EMS\HelloWorldService\obj\Debug\HelloWorldService.pdb
